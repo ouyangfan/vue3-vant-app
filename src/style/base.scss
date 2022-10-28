@@ -1,0 +1,65 @@
+@import './var.scss';
+
+html {
+  font-size: 100px;
+  color: $text-color;
+}
+body {
+  font-size: 0.12rem;
+}
+p {
+  margin: 0;
+  padding: 0;
+}
+img {
+  border-style: none;
+}
+:root {
+  --van-tree-select-nav-item-padding: 10px;
+  --van-sidebar-width: 78px;
+}
+.wrapper {
+  padding: 0.16rem 0.2rem;
+  font-size: 0.14rem;
+}
+.small-font {
+  font-size: 0.2rem;
+  transform: scale(0.5, 0.5);
+  transform-origin: center top;
+}
+.pull-right {
+  float: right;
+}
+.pull-left {
+  float: left;
+}
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: ' ';
+  clear: both;
+  height: 0;
+}
+.primary-text {
+  color: $primary-color;
+}
+
+.font-24 {
+  font-size: 0.16em;
+}
+.line-height-20 {
+  line-height: 20px !important;
+}
+.ml-5 {
+  margin-left: 5px;
+}
+.ml-10 {
+  margin-left: 10px;
+}
+.mr-5 {
+  margin-right: 5px;
+}
+.mt-10 {
+  margin-top: 10px;
+}
