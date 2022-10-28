@@ -1,5 +1,5 @@
 # Vue 3 + TypeScript + Vite + Vant
-express mock 少部分接口。
+仿京东到家手机版。express mock 部分接口。欢迎交流。
 
 
 ## 效果图
@@ -9,6 +9,6 @@ express mock 少部分接口。
 ![image](https://user-images.githubusercontent.com/24973981/198686858-5e0f3f8a-006b-4e7c-a13e-6368cb8e69dd.png)
 ![image](https://user-images.githubusercontent.com/24973981/198686902-9943ce96-db0e-44c3-9337-b7e3605e26e8.png)
 
-欢迎交流。
+
 
 
