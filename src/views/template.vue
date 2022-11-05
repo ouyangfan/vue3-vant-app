@@ -1,5 +1,4 @@
 <template>
-
 </template>
 
 <script lang="ts">
@@ -12,7 +11,6 @@ export default {
     const state = reactive({
 
     })
-
     return {
       ...toRefs(state),
     }

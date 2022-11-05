@@ -2,12 +2,10 @@
   <van-nav-bar title="我的全部购物车" />
 
   <div class="shops">
-
     <div class="">
       <div class="shop__title">沃尔玛</div>
       <div class="products">
         <div class="products__list">
-
           <div class="products__item" v-for="(value, key) in cartProducts" :key="key">
             <img class="products__item__img" :src="`/src/assets/cart/${value.img}`">
             <div class="products__item__detail">
@@ -30,7 +28,6 @@
   </div>
 
   <Navigation currentIndex="shopping-cart"></Navigation>
-
 </template>
 
 <script lang="ts">

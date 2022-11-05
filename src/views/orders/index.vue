@@ -24,11 +24,8 @@ import { reactive, ref, toRefs } from 'vue'
 import http from '@/plugins/axios'
 import Navigation from '@/components/Navigation.vue'
 
-
-
 export default {
   name: 'Personal', components: { Navigation },
-
   setup() {
     const state = reactive({
       orderList: [] as any

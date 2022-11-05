@@ -86,8 +86,6 @@ export default {
         color: #C1C0C9;
         text-align: center;
       }
-
-
     }
 
     .header__avatar {

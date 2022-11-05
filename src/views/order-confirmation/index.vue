@@ -24,15 +24,15 @@
           <div class="products__item" v-for="(item, key) in cartProducts">
             <img :src="`/src/assets/cart/${item.img}`" alt="" class="products__item__img">
             <div class="products__item__detail">
-              <h4 class="products__item__title">{{item.name}}</h4>
+              <h4 class="products__item__title">{{ item.name }}</h4>
               <p class="products__item__price">
                 <span>
                   <span class="products__item__yen">¥ </span>
-                  {{item.price}} * {{item.count}}
+                  {{ item.price }} * {{ item.count }}
                 </span>
                 <span class="products__item__total">
                   <span class="products__item__yen">¥ </span>
-                  {{(item.price * item.count).toFixed(2)}}
+                  {{ (item.price * item.count).toFixed(2) }}
                 </span>
               </p>
             </div>
@@ -43,7 +43,7 @@
     <div class="order">
       <div class="order__price">
         实付金额
-        <b>¥ {{totalPrice}}</b>
+        <b>¥ {{ totalPrice }}</b>
       </div>
       <div class="order__btn" @click="confirm">提交订单</div>
     </div>
@@ -56,7 +56,6 @@ import http from '@/plugins/axios'
 import { useStore } from 'vuex'
 import { Dialog } from 'vant';
 import { useRouter } from 'vue-router';
-
 
 export default {
   name: 'Login',
