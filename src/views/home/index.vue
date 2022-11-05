@@ -120,7 +120,6 @@ export default {
 @import '@/style/var.scss';
 
 .wrapper {
-
   .banner {
     .banner__img {
       width: 100%;

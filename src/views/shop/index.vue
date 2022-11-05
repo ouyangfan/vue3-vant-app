@@ -44,15 +44,15 @@
     </van-tree-select>
   </div>
   <!-- 底部购物车 -->
-  <div class="mask" v-show="showCartDetail && Object.keys(cartProducts).length"></div>
+  <div class="mask" v-show="showCartDetail && Object.keys(cartProducts).length" @click="showCartDetail = false"></div>
   <div class="cart">
     <div class="product" v-show="showCartDetail && Object.keys(cartProducts).length">
       <div class="product__header">
         <div class="product__header__all">
           <van-checkbox v-model="allChecked" icon-size="14px" @click="toggleAllChecked">全选</van-checkbox>
         </div>
-        <div class="product__header__clear" @click="clearCart">
-          <span>清空购物车</span>
+        <div class="product__header__clear">
+          <span @click="clearCart">清空购物车</span>
         </div>
       </div>
       <div class="product__item" v-for="(value, key) in cartProducts" :key="key">
